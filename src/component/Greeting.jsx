@@ -1,9 +1,11 @@
 import React from 'react'
 
-function Greeting() {
+export default function Greeting() {
   return (
-    <div>Welcome to class!!</div>
+    <div>
+        <h1>Welcome to class!!</h1>
+        <p>This is a simple greeting component.</p>
+    </div>
   )
 }
 
-export default Greeting;
