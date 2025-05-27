@@ -5,12 +5,14 @@ import Header from './component/Header';
 import Footer from './component/Footer';
 import PropsWithDes from './component/PropsWithDes';
 import FormWithState from './component/FormWithState';
+import FormSingleState from './component/FormSingleState';
 
 function App() {
   return (
     <>
       {/* <Header/> */}
-      <FormWithState />
+      {/* <FormWithState />*/}
+      <FormSingleState />
       {/* <PropsWithoutDes studentName="Josh" studentlastName="Doe"/>
       <PropsWithoutDes studentName="Jane" studentlastName="Smith"/>
       <PropsWithDes studentName="Alice" studentlastName="Johnson"/>
